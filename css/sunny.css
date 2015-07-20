@@ -1,0 +1,55 @@
+
+body{
+    display: flex;
+    background-image: url("img/Sunny-Summer-Day--1080x1920.jpg");
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: "PG_IsadoraCyrPro-Regular";
+    src: url(fonts/PG_IsadoraCyrPro-Regular.ttf);
+}
+h1{
+    font-family: "PG_IsadoraCyrPro-Regular", serif;
+    font-size: 70px;
+    text-decoration: none;
+    color: #0c0c0c;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+    margin-right: auto;
+}
+
+article{
+    margin-top: auto;
+    background-color: transparent;
+    text-align: center;
+    flex:  60%;
+    order: 2;
+}
+
+
+nav {
+    max-width: 190px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 20px;
+position: static;
+    background: transparent;
+    flex:  12%;
+    order: 1;
+}
+aside{
+    height: 600px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 20px;
+    position: static;
+    background: transparent;
+    flex:  2%;
+    order: 3;
+}
+#music{
+    position: fixed; bottom: 0; left: 0;
+}

@@ -1,0 +1,185 @@
+#main {
+    min-height: 700px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+
+}
+article {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+
+
+    border-radius: 20px;
+    background-color: transparent;
+
+    flex:  60%;
+    order: 2;
+}
+body {
+    background-image: url("img/cartoon-blue-sky-wallpaper-535539080275b.png");
+    background-repeat: no-repeat;
+
+}
+
+nav {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 180px;
+    background: transparent;
+    flex:  12%;
+    order: 1;
+}
+
+
+aside {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #8888bb;
+    min-width: 336px;
+    max-height: 700px;
+    border-radius: 20px;
+    background: white;
+    flex:  20%;
+    order: 3;
+}
+
+header, footer {
+    display: inline-flex;
+    text-align: center;
+max-height: 90px;
+    margin-left: 5% ;
+    min-height: 50px;
+    border: 1px black;
+    border-radius: 20px;
+    background-color: transparent;
+   min-width: 530px;
+
+}
+
+@font-face {
+    font-family: Adventure;
+    src: url(fonts/Adventure.ttf);
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(fonts/Pacifico.ttf);
+}
+
+table {
+    margin: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Pacifico', serif;
+    color: white;
+    text-decoration: none;
+
+
+}
+th{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 39px;
+    color: #ffffff;
+    text-shadow:
+    -1px -1px 0 #0c0c0c,
+    1px -1px 0 #0c0c0c,
+    -1px 1px 0 #0c0c0c,
+    1px 1px 0 #0c0c0c;
+    min-width: 170px;
+    max-width: 170px;
+}
+td {
+    padding: 5px;
+text-align: center;
+    border-radius: 20px;
+    height: 70px;
+    font-size:23px;
+    background-color: rgba(0,204,255,0.47);
+
+}
+div[class="search"]{
+    float: right;
+    border: medium;
+    margin-right: 5%;
+
+}
+input[id="city"]{
+    border: none;
+    outline: none;
+    width: 310px;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 20px;
+    text-align: center;
+}
+div[id='log']{
+    float: right;
+    border: none;
+    outline: none;
+    display: none;
+    vertical-align: middle;
+    border-radius: 20px;
+    text-align: center;
+}
+.poss{
+    float: left;
+    font-family: "Pacifico", sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow:
+    -1px -1px 0 #0c0c0c,
+    1px -1px 0 #0c0c0c,
+    -1px 1px 0 #0c0c0c,
+    1px 1px 0 #0c0c0c;
+    margin-right: auto;
+    position: static;
+    margin-left: 10%;
+    border-radius: 50px;
+    width: 350px;
+    height: 230px;
+    text-align: center;
+    background-color: rgba(255, 255, 204, 0.57)
+}
+h1{
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg); 
+    -o-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+    width:12em;
+    font-size:2em;
+    text-align:center;
+    margin:4em auto;
+}
+.cloudy{
+    background-color: rgba(0,204,255,0.57);
+}
+.rainy{
+    background-color: rgba(51,153,255,0.69)
+}
+.sunny {
+    background-color: rgba(255, 255, 204, 0.57)
+}
+.buttons{
+    position: fixed;
+}
+div>#log>div{
+    display: none;
+}
+div>#log>div:first-child{
+    display: inline;
+}
+#head{
+    font-family: "Pacifico", serif;
+    font-size: 27px;
+    color: #ffffff;
+    text-shadow:
+    -1px -1px 0 #0c0c0c,
+    1px -1px 0 #0c0c0c,
+    -1px 1px 0 #0c0c0c,
+    1px 1px 0 #0c0c0c;
+    margin-right: auto;
+}
