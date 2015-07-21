@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sunny Day</title>
+    <link rel="stylesheet" href="css/sunny.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="player/skin/blue.monday/css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="player/lib/jquery.js"></script>
+    <script type="text/javascript" src="player/jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="player/add-on/jplayer.playlist.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+            new jPlayerPlaylist({
+                jPlayer: "#jquery_jplayer_1",
+                cssSelectorAncestor: "#jp_container_1"
+            }, [
+                {
+                    title:"Pharrell Williams – Happy",
+                    mp3:"http://mp3-pesni.net/music/0ff7eef89c99a0c1daef2e3a6a32f15a.mp3"
+                },
+                {
+                    title:"Mark Ronson – Uptown Funk ",
+                    mp3:"http://mp3-pesni.net/music/e901c42a76a8093ce5b8dfa355b71573.mp3"
+
+                },
+                {
+                    title:"Maroon 5 – Maps",
+                    mp3:"http://mp3-pesni.net/music/19b9c7e5cca47bdbd1ca088734b94e6c.mp3"
+
+                },
+                {
+                    title:"Wouter Hamel – March, April, May",
+                    mp3:"http://mp3-pesni.net/music/256e97d1fc8a2b439a36d7cf99567853.mp3"
+
+                },
+                {
+                    title:"Wouter Hamel – Breezy",
+                    mp3:"http://mp3-pesni.net/music/2d738fe1d1281e1e74f50dc7f4acdbf3.mp3"
+                },
+                {
+                    title:"Stevie Wonder – For Once In My Life",
+
+                    mp3:"http://mp3-pesni.net/music/4c9c7e72c7ad7479971ca116318014fa.mp3"
+                }
+
+            ], {
+                swfPath: "../../dist/jplayer",
+                supplied: "mp3",
+                wmode: "window",
+                useStateClassSkin: true,
+                autoBlur: false,
+                smoothPlayBar: true,
+                keyEnabled: true
+            });
+        });
+        //]]>
+    </script>
+</head>
+
+<body>
+<article>
+    <h1>"Wherever you go, <br>
+        no matter what the weather,<br>
+        always bring your own sunshine"</h1>
+</article>
+<nav>
+    <a href="index.html"><img src="css/img/images.png"> </a>
+    <div id="music">
+    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+    <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+        <div class="jp-type-playlist">
+            <div class="jp-gui jp-interface">
+                <div class="jp-controls">
+                    <button class="jp-previous" role="button" tabindex="0">previous</button>
+                    <button class="jp-play" role="button" tabindex="0">play</button>
+                    <button class="jp-next" role="button" tabindex="0">next</button>
+                    <button class="jp-stop" role="button" tabindex="0">stop</button>
+                </div>
+
+
+            </div>
+            <div class="jp-playlist">
+                <ul>
+                    <li>&nbsp;</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</nav>
+<aside>
+
+</aside>
+</body>
+
+</html>
